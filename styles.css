@@ -1,0 +1,44 @@
+body{ margin:0; }
+  a { color:black;
+    text-decoration: none;
+    }
+ h1{
+ font-size: 50px;  text-align: center;
+   border-bottom: 2px solid gray;
+   margin:0;
+   padding:25px;
+ }
+ center {
+   border-top: 2px solid gray;
+ }
+ 
+ #bottom{
+  border-top: 2px solid gray;
+  color: gray;
+       }
+ #active{ color:gray;
+            }
+ul{
+  border-right: 1px solid gray;
+  width: 110px;
+  margin:0;
+  padding: 30px;
+  }
+#grid ul{
+    padding-left: 44;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 190px 1fr;
+
+}
+#mail{
+  color: gray;
+}
+@media (max-width:800px) {
+ #grid{
+   display:block;
+ }
+ ul{
+border-right: none;}
+}
